@@ -3,10 +3,24 @@
   <head>
     <title>Getting closure on hooks</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
   </head>
 
   <body>
+    <h1>Deep dive: How do React hooks really work?</h1>
     <div id="app"></div>
+
+    <p>
+      Hooks are a fundamentally simpler way to encapsulate stateful behavior and
+      side effects in user interfaces. They were first introduced in React and
+      have been broadly embraced by other frameworks like Vue, Svelte, and even
+      adapted for general functional JS. However, their functional design
+      requires a good understanding of closures in JavaScript. In this article,
+      we reintroduce closures by building a tiny clone of React Hooks. This will
+      serve two purposes – to demonstrate the effective use of closures, and to
+      show how you can build a Hooks clone in just 29 lines of readable JS.
+      Finally, we arrive at how Custom Hooks naturally arise.
+    </p>
 
     <script src="src/index.js"></script>
   </body>
